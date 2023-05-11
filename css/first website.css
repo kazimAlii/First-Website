@@ -1,0 +1,370 @@
+/*------------universal selector------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------NAVIGATION BAR---------------*/
+.nav-bar {
+    background-color: hsl(5.28deg 73.1% 66.47%);
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+
+.a:hover {
+    background-color: #b54e4e;
+}
+
+.home:hover {
+    background-color: #b54e4e;
+}
+
+.div-nav a {
+    color: #fffbfbde;
+    text-decoration: none;
+    font-family: initial;
+    font-weight: 600;
+    font-size: larger;
+    padding: 2rem;
+    padding-left: 30px;
+}
+
+.li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.home-i {
+    padding-left: 33px;
+    padding-right: 0px;
+    color: #f5e2e2;
+    position: relative;
+    right: -33px;
+    font-size: 21px;
+}
+
+/*------------section one starts here-------------*/
+.section-one {
+    background-image: url('../images/gara.jpg');
+    color: lightgrey;
+    height: 669px;
+}
+
+.img-opacity {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.div-one {
+    padding: 65.5px 90px 307.5px 184px;
+    padding-top: 120px;
+}
+
+.div-one h2 {
+    font-size: 65px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+
+.para-one {
+    line-height: 28px;
+    letter-spacing: 1px;
+    padding-top: 12px;
+    padding-left: 6px;
+    font-size: 21px;
+
+}
+
+.button {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0 44 112);
+    padding: 12px 50px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+/*---------section two starts here---------*/
+.sec-two {
+    color: rgb(61, 57, 57);
+    margin-bottom: 100px;
+
+}
+
+
+.div {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    top: 12rem;
+    margin-left: 82px;
+    padding-top: 116px;
+    padding-right: 0px;
+    padding-left: 46px;
+}
+
+.div p {
+    line-height: 21px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.div h3 {
+    padding-bottom: 23px;
+    padding-top: 59px;
+}
+
+/*------------div starts here-------------*/
+
+.div-buy {
+    background-color: #e8766b;
+    padding: 5px;
+
+}
+
+.para-buy {
+    font-size: 25px;
+    padding-top: 59px;
+    padding-left: 169px;
+    color: white;
+}
+
+.button-buy {
+    font-size: 15px;
+    color: rgb(247 247 247);
+    padding: 15px 20px;
+    background-color: #e8766b;
+    border: 1px solid white;
+    border-radius: 6px;
+    position: relative;
+    left: 70rem;
+    bottom: 2rem;
+    cursor: pointer;
+
+}
+
+.icon {
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 50%;
+    padding: 33px 35px;
+    font-size: 31px;
+    color: #e8766b;
+
+}
+
+.icon:hover {
+    background-color: #e77266;
+    color: white;
+    transition: 0.8s;
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+
+.icon-screen {
+    padding: 33px 38px;
+
+}
+
+.icon-eye {
+    padding: 33px 33px
+}
+
+/*-----------section four starts here---------*/
+
+.sec-lap {
+
+    background-color: hsl(210.27deg 52.61% 58.63%);
+    padding-bottom: 100px;
+}
+
+.div-lap {
+    text-align: left;
+    padding-left: 0px;
+    color: white;
+    display: inline-block;
+    font-family: inherit;
+}
+
+.heading-lap {
+    padding-top: 125px;
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.para-lap {
+
+    padding-top: 32px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.div-laptop {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    left: 84px;
+}
+
+.image-lap {
+    height: 359px;
+    width: 36rem;
+}
+
+.ptwo-lap {
+
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/*------------section five----------------*/
+
+.table {
+    text-transform: none;
+    text-align: center;
+    line-height: 61px;
+    border: 4px solid hsla(0, 8%, 95%, 0.5);
+    color: #756d6d;
+    width: 100%;
+    margin: 0px -112px;
+}
+
+.div-table {
+    margin-left: 16rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    width: 80%;
+}
+
+.th {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.dollor {
+    background-color: hsl(0deg 0% 93.33%);
+    font-weight: 100;
+    font-size: 32px;
+    color: hsl(5.28deg 73.1% 66.47%);
+}
+
+.td {
+    padding: 23px;
+}
+
+.tr-repeat {
+    background-color: hsl(0deg 0% 93.33%);
+}
+
+.premium {
+    background-color: hsl(5.28deg 73.1% 66.47%);
+    color: white;
+    font-weight: 100;
+}
+
+.button-table {
+    background-color: hsl(5.28deg 73.1% 66.47%);
+    color: white;
+    border: none;
+    padding: 18px 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 17px 7px;
+}
+
+/*--------------section five ends------------*/
+
+.div-search {
+    background-color: hsl(334.65deg 42.01% 33.14%);
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 6px;
+    margin-bottom: 1px;
+    height: 158px;
+}
+
+::placeholder {
+    padding-right: 10px;
+    color: rgb(163, 162, 162);
+}
+
+.h-2 {
+
+    font-weight: 300;
+    text-transform: none;
+    margin-bottom: -16px;
+    padding-right: 57px;
+    color: hsl(0deg 11.11% 85.88%);
+}
+
+.sec-six {
+    line-height: 80px;
+}
+
+.button-last {
+    border: 0px solid white;
+    background-color: hsl(210deg 53.86% 55.63%);
+    color: white;
+    padding: 11px 29px;
+    border-radius: 6px;
+    position: relative;
+    left: 16rem;
+    cursor: pointer;
+}
+
+.search-bar {
+    position: relative;
+    right: 171px;
+    padding: 10px 63px;
+    border-radius: 4px;
+    border: none;
+    text-transform: none;
+}
+
+/*-------------last section-----------*/
+.last-sec {
+    background-color: #e8766b;
+    height: 117px;
+    color: #f9f7f7;
+}
+
+.last-div {
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 38px 158px;
+    height: 10px;
+}
+
+.para-last {
+    text-transform: none;
+    font-family: math;
+    letter-spacing: 1px;
+    padding-top: 19px;
+}
+
+.icon-last {
+    border: 2px solid #ffffff;
+    padding: 4px 5px;
+    border-radius: 119px 118px;
+    position: relative;
+    left: 58rem;
+    bottom: 16px;
+    margin: 0px -1px;
+    top: -22px;
+    cursor: pointer;
+}
+
+.button-table:hover {
+    background-color: hsl(5.28deg 79.56% 53.78%);
+}
+
+/*----------homework ends here :) ----------*/
